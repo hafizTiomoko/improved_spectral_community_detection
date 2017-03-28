@@ -56,14 +56,15 @@ def network_generate():
 
         ##Setting of the model parameters
         ## Average connectivities q's
-        bs = [0.25,0.75]
-        q1 = 0.2
+        #bs = [0.25,0.75]
+        bs = [0.75, 0.25]
+        q1 = 0.4
         q2= 0.8
         q=np.repeat(np.array([q1,q2]),[int(n_init*bs[0]),int(n_init*bs[1])])
 
         # Choice of affinity matrix M
-        M = 10 * (-1 * np.ones(K) + 2 * np.identity(K))
-
+        #M = 10 * (-1 * np.ones(K) + 2 * np.identity(K))
+        M=5*np.identity(K)
         # Construction of C
         C = np.ones((int(K),int(K)))+M/math.sqrt(n_init)
 
