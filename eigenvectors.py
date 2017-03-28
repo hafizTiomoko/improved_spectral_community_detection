@@ -1,4 +1,4 @@
-def regularized_eigenvectors(A, d, K, alpha, ground_truth, startGround_truth):
+def regularized_eigenvectors(A, d, K, alpha):
 
     import numpy as np
     import math as math
