@@ -8,7 +8,7 @@ def network_generate():
     ### We may have real world networks or synthetic graphs following the DCSBM
 
     ## Choice of the network to generate
-    #network='real_world'   ## Choose either 'real_world' or 'real_world'
+    #network='real_world'   ## Choose either 'real_world' or 'DCSBM'
     network='DCSBM'
 
     if network=='real_world':
