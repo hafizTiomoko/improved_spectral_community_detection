@@ -8,7 +8,6 @@ from last_step_kmeans import modified_kmeans
 
 ### Get the graph on which we want to extract the communities
 A, ground_truth, startGround_truth = network_generate()  ## startGround_truth is 0 when the minimum value of the ground truth is 0 and 1 otherwise
-print startGround_truth
 ### Get the adjacency matrix and the ground_truth from csv files
 #A = np.genfromtxt('adjacency.csv', delimiter=",")
 #ground_truth = np.genfromtxt('conf_true.csv', delimiter=",")
