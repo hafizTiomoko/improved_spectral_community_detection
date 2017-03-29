@@ -31,8 +31,7 @@ else:
     K = int(np.amax(ground_truth))
 print K
 
-#alpha=optimal_alpha(qEst,n)
-alpha=0
+alpha=optimal_alpha(qEst,n)
 #print alpha
 
 
