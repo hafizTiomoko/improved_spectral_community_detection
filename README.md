@@ -1,7 +1,8 @@
 # Content
-## Improved spectral community detection in large heterogeneous graphs
+## [Improved spectral community detection in large heterogeneous graphs](http://romaincouillet.hebfree.org/docs/articles/JMVA_TIOMOKO.pdf)
 This page contains the python code implementing our new spectral community detection algorithm based on a Random Matrix Theory 
-analysis of graph similarity matrices. To recall, the algorithm consists of the following steps
+analysis of graph similarity matrices. 
+To recall, the algorithm consists of the following steps
 
 ### Computation of an estimate of the optimal value of the modularity normalization parameter alpha
   This is implementing with the function _optimal_alpha_
@@ -21,12 +22,12 @@ analysis of graph similarity matrices. To recall, the algorithm consists of the 
   
   # CONTACTS
   * Hafiz TIOMOKO ALI
-    *Phd Student at CentraleSupélec
-    *3 Rue Joliot Curie, Plateau de Moulon, 91192 Gif-Sur-Yvette (France)
-    *e-mail: tio.hafiz@gmail.com
-    *Website: (http://laneas.com/hafiz-tiomoko-ali)
+    * Phd Student at CentraleSupélec
+    * 3 Rue Joliot Curie, Plateau de Moulon, 91192 Gif-Sur-Yvette (France)
+    * e-mail: tio.hafiz@gmail.com
+    * Website: (http://laneas.com/hafiz-tiomoko-ali)
   * Romain COUILLET
-    *Professor at CentraleSupélec
-    *3 Rue Joliot Curie, Plateau de Moulon, 91192 Gif-Sur-Yvette (France)
-    *e-mail: romain.couillet@gmail.com
-    *Website: (http://romaincouillet.hebfree.org/)
+    * Professor at CentraleSupélec
+    * 3 Rue Joliot Curie, Plateau de Moulon, 91192 Gif-Sur-Yvette (France)
+    * e-mail: romain.couillet@gmail.com
+    * Website: (http://romaincouillet.hebfree.org/)
