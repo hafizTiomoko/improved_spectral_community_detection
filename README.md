@@ -15,7 +15,10 @@ We have other useful codes for a visualization of the empirical and theoretical 
  * Histogram plots implemented in the function _histogram_eigenvalues_
  * Eigenvectors plots implemented in the function _eigen_plots_
   
-  
+# DEPENDENCIES
+* Python: tested with version 2.7.13
+* Packages needed: Numpy, scipy, Networkx, sklearn, Matplotlib, munkres.
+
 # JUPITER NOTEBOOK
   You can use an interactive real-time version of the codes within your web-browser with our [Jupiter Notebook](https://github.com/hafizTiomoko/improved_spectral_community_detection/blob/master/RMT4CD.ipynb).
   
